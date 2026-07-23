@@ -51,6 +51,9 @@ jobs:
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: website/_site
+
 
   deploy:
     runs-on: ubuntu-24.04
