@@ -10,16 +10,10 @@ $font-family-theme: 'Lilita', sans-serif;
 $topnav-bg: $dark;
 $topnav-title-color: $white;
 $topnav-brand-height: 55px;
+$topnav-searchbar: $dark-xx;
 
 /*-----Sidebar-----*/
-$sidebar-bg: transparent;
-$sidebar-color: $light;
-$sidebar-lvl2-bg: transparent;
-$sidebar-lvl2-color: $light;
-$sidebar-lvl3-bg: transparent;
-$sidebar-lvl3-color: $light;
-$sidebar-bg-active: $dark-xx;
-$sidebar-color-active: $primary;
+$sidebar-title-bg: $dark;
 
 /*-----Footer-----*/
 $footer-bg: $dark;
@@ -30,3 +24,4 @@ $footer-copyright-bg: $dark;
 
 /*-----Contributors-cards-----*/
 $contr-card-bg: $dark-xx;
+$contr-popover-bg: $dark-xx;

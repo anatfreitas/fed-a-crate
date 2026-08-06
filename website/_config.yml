@@ -7,7 +7,7 @@ topnav_title: Fed-A-Crate
 description: "Project website for Fed-A-Crate"
 # Metadata description of the website
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@4.1.0
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@6.1.0
 
 exclude:
   - README.md
@@ -55,14 +55,18 @@ theme_variables:
   #   more-information-tiles: More information
   #   resource-table-all: Tools and resources on this page
   #   resource-table-all-collapse: false
-  #   affiliation-tiles-page: Affiliations
-  #   contributor-minitiles-page: Contributors
+  # page_metadata:
+  #   contributors_sort: true
+  #   coordinators_sort: true
+  #   editors_sort: true
+  #   affiliations_sort: true
   # toc:
   #   min_headings: 2
-  #   headings: 'h2'
+  #   headings: 'main h2'
   topnav:
     theme: dark
     brand_logo: assets/img/main_logo.svg
+    search: true
     # github: true
     # twitter: false
   theme_color: 42db70
@@ -84,4 +88,3 @@ plugins:
 #   repository_url: https://github.com/ELIXIR-Belgium/elixir-toolkit-theme
 #   source:
 #     branch: main
-
