@@ -35,6 +35,10 @@ main h1,
 
 /*-----Top navigation-----*/
 
+nav.navbar.shadow-sm {
+    box-shadow: none!important;
+}
+
 .navbar-nav .nav-item > a.active {
     color: $primary;
 }
@@ -73,9 +77,16 @@ header .navbar .navbar-brand {
     background-color: $dark-xx !important;
 }
 
-.btn.sidebar-collapse {
+/*-----Sidebar-----*/
+
+#sidebar > nav.text-muted {
     color: $light !important;
 }
+
+#sidebar > nav > ul li {
+    padding: 0.5rem 1rem;
+}
+
 
 /*-----Landingpage customizations-----*/
 
