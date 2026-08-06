@@ -2,7 +2,7 @@
 
 # Fed-A-Crate
 
-The Fed-A-Crate project is an EU-funded project that runs from January 2025 to December 2026. This repository contains both the code for the [Fed-A-Crate project website](https://elixir-europe.github.io/fed-a-crate/) as well as the code for the software developed during the project. Their contents can be found in the folders [`website`](https://github.com/elixir-europe/fed-a-crate/tree/code-website-division/website) and [`code`](https://github.com/elixir-europe/fed-a-crate/tree/code-website-division/code), respectively.
+The Fed-A-Crate project is an EU-funded project that runs from January 2025 to December 2026. This repository contains both the code for the [Fed-A-Crate project website](https://elixir-europe.github.io/fed-a-crate/) as well as the code for the software developed during the project. Their contents can be found in the folders [`website`](/website) and [`code`](/code), respectively.
 
 If you want to make contributions to this project, please add new features (both for website and codebase) through a pull request.
 
